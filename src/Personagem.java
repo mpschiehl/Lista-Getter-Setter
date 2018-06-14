@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Marcio Pedro Schiehl
+ * @author Alunos
  */
 public class Personagem {
     private String nome,cla,aldeia;

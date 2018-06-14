@@ -9,9 +9,9 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Marcio Pedro Schiehl
+ * @author Alunos
  */
-public class FilmetTest {
+public class FilmeJUnitTest {
     
    @Test
    public void testeDefinirTituloOriginal(){
@@ -46,19 +46,5 @@ public class FilmetTest {
        matrix.setValorFaturamento((double)742128461);
        assertEquals(742128461, matrix.getValorFaturamento(),0);
    }
-   @Test
-   public void testValorOrcamento () {
-     Filme tarzan = new Filme();
-     tarzan.setTitulo("Tarzan");
-     tarzan.setValorOrcamento((long)180000000000l);
-     assertEquals(180000000000l,tarzan.getValorOrcamento(),0);
-   }
-   @Test
-   public void testEspectadores(){
-       Filme avatar = new Filme();
-       avatar.setTitulo("Avatar");
-       avatar.setEspetadores((long)2080000000000l);
-       assertEquals(2080000000000l, avatar.getEspectadores());
-   }
-    
+
 }

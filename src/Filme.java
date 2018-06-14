@@ -38,18 +38,17 @@ public void setAnoLancamento(short anoLancamento){
 public short getAnolancamento(){
     return anoLancamento;
 }
-private double valorFaturamento;
-private long valorOrcamento;
+private double valorFaturamento,valorOrcamento;
 public double getValorFaturamento() {
         return valorFaturamento;
     }
 public void setValorFaturamento(double valorFaturamento) {
         this.valorFaturamento = valorFaturamento;
     }
-public long getValorOrcamento() {
+public double getValorOrcamento() {
         return valorOrcamento;
     }
-public void setValorOrcamento(long valorOrcamento) {
+public void setValorOrcamento(double valorOrcamento) {
         this.valorOrcamento = valorOrcamento;
     }
 private long espectadores;
