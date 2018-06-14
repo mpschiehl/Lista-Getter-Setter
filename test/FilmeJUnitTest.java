@@ -60,4 +60,25 @@ public class FilmeJUnitTest {
        avatar.setEspetadores(2080000000000l);//long
        assertEquals(2080000000000l, avatar.getEspectadores());
    }
+   @Test
+   public void testClasificacao(){
+       Filme taxi = new Filme();
+       taxi.setClassificao("Taxi");
+       taxi.setClassificao("12");
+       assertEquals("12", taxi.getClassificao());
+   }
+   @Test
+   public void testMediaPreco(){
+       Filme spyderman = new Filme();
+       spyderman.setTitulo("Homen Aranha");
+       spyderman.setMediaPreco(26.00);
+       assertEquals(26.00, spyderman.getMediaPreco(),0);
+   }
+   /*@Test
+   public void testDataDeLancamento(){
+       Filme ted = new Filme();
+       ted.setTitulo("Ted");
+       ted.setDataLancamentoBrasil(21.07.2015);
+       
+   }*/
 }

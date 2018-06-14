@@ -63,14 +63,14 @@ private String classificacao;
 public String getClassificao(){
     return classificacao;
 }
-public void setClassificao(String classificao){
+public void setClassificao(String classificacao){
     this.classificacao=classificacao;
 }
 private double mediaPreco;
 public double getMediaPreco(){
     return mediaPreco;
 }
-public void setMediaPreco(){
+public void setMediaPreco(double mediaPreco){
     this.mediaPreco = mediaPreco;
 }
 private LocalDate dataLancamentoBrasil;
