@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author Alunos
+ * @author Marcio Pedro Schiehl
  */
 public class Filme {
 private String titulo, genero,tituloOriginal;
@@ -38,17 +38,18 @@ public void setAnoLancamento(short anoLancamento){
 public short getAnolancamento(){
     return anoLancamento;
 }
-private double valorFaturamento,valorOrcamento;
+private double valorFaturamento;
+private long valorOrcamento;
 public double getValorFaturamento() {
         return valorFaturamento;
     }
 public void setValorFaturamento(double valorFaturamento) {
         this.valorFaturamento = valorFaturamento;
     }
-public double getValorOrcamento() {
+public long getValorOrcamento() {
         return valorOrcamento;
     }
-public void setValorOrcamento(double valorOrcamento) {
+public void setValorOrcamento(long valorOrcamento) {
         this.valorOrcamento = valorOrcamento;
     }
 private long espectadores;
@@ -62,7 +63,7 @@ private String classificacao;
 public String getClassificao(){
     return classificacao;
 }
-public void setClassificao(){
+public void setClassificao(String classificao){
     this.classificacao=classificacao;
 }
 private double mediaPreco;
